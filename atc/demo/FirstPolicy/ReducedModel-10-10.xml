@@ -1,0 +1,3332 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE entity PUBLIC "-//UC Berkeley//DTD MoML 1//EN"
+    "http://ptolemy.eecs.berkeley.edu/xml/dtd/MoML_1.dtd">
+<entity name="ReducedModel-10-10" class="ptolemy.actor.TypedCompositeActor">
+    <property name="_createdBy" class="ptolemy.kernel.attributes.VersionAttribute" value="11.0.1_20180619">
+    </property>
+    <property name="TopLevelDirector" class="ptolemy.domains.atc.kernel.policy1.TopLevelDirector">
+        <property name="networkDimension" class="ptolemy.data.expr.Parameter" value="10">
+        </property>
+        <property name="dimentionOfRegion" class="ptolemy.data.expr.Parameter" value="5">
+        </property>
+        <property name="indexOfFile" class="ptolemy.data.expr.Parameter" value="i">
+        </property>
+        <property name="_location" class="ptolemy.kernel.util.Location" value="[135.0, 60.0]">
+        </property>
+    </property>
+    <property name="i" class="ptolemy.data.expr.Parameter" value="1">
+        <property name="_hideName" class="ptolemy.kernel.util.SingletonAttribute">
+        </property>
+        <property name="_icon" class="ptolemy.vergil.icon.ValueIcon">
+            <property name="_color" class="ptolemy.actor.gui.ColorAttribute" value="{0.0, 0.0, 1.0, 1.0}">
+            </property>
+        </property>
+        <property name="_smallIconDescription" class="ptolemy.kernel.util.SingletonConfigurableAttribute">
+            <configure>
+      <svg>
+        <text x="20" style="font-size:14; font-family:SansSerif; fill:blue" y="20">-P-</text>
+      </svg>
+    </configure>
+        </property>
+        <property name="_editorFactory" class="ptolemy.vergil.toolbox.VisibleParameterEditorFactory">
+        </property>
+        <property name="_location" class="ptolemy.kernel.util.Location" value="[230.0, 35.0]">
+        </property>
+    </property>
+    <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-8, -8, 1382, 744}, maximized=true}">
+    </property>
+    <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1154, 627]">
+    </property>
+    <property name="_vergilZoomFactor" class="ptolemy.data.expr.ExpertParameter" value="1.0">
+    </property>
+    <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{609.0, 313.515625}">
+    </property>
+    <entity name="ControlArea" class="ptolemy.domains.atc.lib.ControlArea">
+        <property name="_location" class="ptolemy.kernel.util.Location" value="[236.0, 202.0]">
+        </property>
+        <property name="InsideDirector" class="ptolemy.domains.atc.kernel.policy1.InsideDirector">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[200.0, 190.0]">
+            </property>
+        </property>
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-8, -8, 1382, 744}, maximized=true}">
+        </property>
+        <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1154, 627]">
+        </property>
+        <property name="_vergilZoomFactor" class="ptolemy.data.expr.ExpertParameter" value="1.0">
+        </property>
+        <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{522.0, 465.765625}">
+        </property>
+        <port name="input1" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[215.0, 725.0]">
+            </property>
+        </port>
+        <port name="input2" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[315.0, 725.0]">
+            </property>
+        </port>
+        <port name="input3" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[410.0, 720.0]">
+            </property>
+        </port>
+        <port name="input4" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[505.0, 725.0]">
+            </property>
+        </port>
+        <port name="input5" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[605.0, 715.0]">
+            </property>
+        </port>
+        <port name="input6" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 210.0]">
+            </property>
+        </port>
+        <port name="input7" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 250.0]">
+            </property>
+        </port>
+        <port name="input8" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 290.0]">
+            </property>
+        </port>
+        <port name="input9" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 330.0]">
+            </property>
+        </port>
+        <port name="nInput1" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 370.0]">
+            </property>
+        </port>
+        <port name="nInput2" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 410.0]">
+            </property>
+        </port>
+        <port name="nInput3" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 450.0]">
+            </property>
+        </port>
+        <port name="nInput4" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 490.0]">
+            </property>
+        </port>
+        <port name="nInput5" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 530.0]">
+            </property>
+        </port>
+        <port name="nInput6" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 570.0]">
+            </property>
+        </port>
+        <port name="nInput7" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 610.0]">
+            </property>
+        </port>
+        <port name="nInput8" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 655.0]">
+            </property>
+        </port>
+        <port name="nInput9" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 695.0]">
+            </property>
+        </port>
+        <port name="output1" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[270.0, 720.0]">
+            </property>
+        </port>
+        <port name="output2" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[355.0, 720.0]">
+            </property>
+        </port>
+        <port name="output3" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[450.0, 720.0]">
+            </property>
+        </port>
+        <port name="output4" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[551.75, 716.0]">
+            </property>
+        </port>
+        <port name="output5" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[670.0, 710.0]">
+            </property>
+        </port>
+        <port name="output6" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 215.0]">
+            </property>
+        </port>
+        <port name="output7" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 255.0]">
+            </property>
+        </port>
+        <port name="output8" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 295.0]">
+            </property>
+        </port>
+        <port name="output9" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 335.0]">
+            </property>
+        </port>
+        <port name="nOutput1" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[680.0, 325.0]">
+            </property>
+        </port>
+        <port name="nOutput2" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[675.0, 405.0]">
+            </property>
+        </port>
+        <port name="nOutput3" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[695.0, 500.0]">
+            </property>
+        </port>
+        <port name="nOutput4" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[700.0, 575.0]">
+            </property>
+        </port>
+        <port name="nOutput5" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[710.0, 655.0]">
+            </property>
+        </port>
+        <port name="nOutput6" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 375.0]">
+            </property>
+        </port>
+        <port name="nOutput7" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 415.0]">
+            </property>
+        </port>
+        <port name="nOutput8" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 455.0]">
+            </property>
+        </port>
+        <port name="nOutput9" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 495.0]">
+            </property>
+        </port>
+        <entity name="Track_R" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="126">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[190.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R2" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="131">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[285.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R3" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="132">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[375.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R4" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="stormy" class="ptolemy.data.expr.Parameter" value="false">
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="133">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[470.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R5" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="134">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[560.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R6" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="127">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[220.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R7" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[315.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R8" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[405.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R9" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[500.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R10" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[590.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R11" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="128">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[230.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R12" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[325.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R13" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[415.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R14" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[510.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R15" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[600.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R16" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="129">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[260.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R17" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[355.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R18" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[445.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R19" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[535.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R20" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[630.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R21" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="130">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[265.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R22" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[360.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R23" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[450.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R24" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[545.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R25" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[635.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{11}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[95.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R2" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{16}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[95.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R3" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{111}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[100.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R4" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{116}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[105.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R5" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{121}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[110.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R6" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{12}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[220.0, 255.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R7" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{13}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[305.0, 250.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R8" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{14}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[390.0, 260.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R9" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{15}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[490.0, 250.0]">
+            </property>
+        </entity>
+        <relation name="relation" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation2" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation3" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation5" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation4" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation6" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation7" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation8" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation9" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation10" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation11" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation12" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation13" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation14" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation15" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation16" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation17" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation18" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation19" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation20" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation21" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation22" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation23" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation24" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation25" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation26" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation27" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation28" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation29" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation30" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation31" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation32" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation33" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation34" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation35" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation36" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation37" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation38" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation39" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation40" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation41" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation42" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation43" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation44" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation45" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation46" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation47" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation48" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation49" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation50" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation51" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation52" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation53" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation54" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation55" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation56" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation57" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation58" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation59" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation60" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation61" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation62" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation63" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation64" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation65" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation66" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation67" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation68" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation69" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation70" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation71" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation72" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation73" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation74" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation75" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation76" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation77" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation78" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation79" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation80" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation81" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation82" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation83" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation84" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <link port="input1" relation="relation70"/>
+        <link port="input2" relation="relation71"/>
+        <link port="input3" relation="relation72"/>
+        <link port="input4" relation="relation73"/>
+        <link port="input5" relation="relation74"/>
+        <link port="output1" relation="relation75"/>
+        <link port="output2" relation="relation76"/>
+        <link port="output3" relation="relation77"/>
+        <link port="output4" relation="relation78"/>
+        <link port="output5" relation="relation79"/>
+        <link port="nOutput1" relation="relation80"/>
+        <link port="nOutput2" relation="relation81"/>
+        <link port="nOutput3" relation="relation82"/>
+        <link port="nOutput4" relation="relation83"/>
+        <link port="nOutput5" relation="relation84"/>
+        <link port="Track_R.input" relation="relation9"/>
+        <link port="Track_R.input" relation="relation61"/>
+        <link port="Track_R.eastOutput" relation="relation"/>
+        <link port="Track_R.southOutput" relation="relation10"/>
+        <link port="Track_R2.input" relation="relation"/>
+        <link port="Track_R2.input" relation="relation11"/>
+        <link port="Track_R2.input" relation="relation66"/>
+        <link port="Track_R2.eastOutput" relation="relation3"/>
+        <link port="Track_R2.southOutput" relation="relation12"/>
+        <link port="Track_R3.input" relation="relation3"/>
+        <link port="Track_R3.input" relation="relation13"/>
+        <link port="Track_R3.input" relation="relation67"/>
+        <link port="Track_R3.eastOutput" relation="relation2"/>
+        <link port="Track_R3.southOutput" relation="relation14"/>
+        <link port="Track_R4.input" relation="relation2"/>
+        <link port="Track_R4.input" relation="relation15"/>
+        <link port="Track_R4.input" relation="relation68"/>
+        <link port="Track_R4.eastOutput" relation="relation5"/>
+        <link port="Track_R4.southOutput" relation="relation16"/>
+        <link port="Track_R5.input" relation="relation5"/>
+        <link port="Track_R5.input" relation="relation17"/>
+        <link port="Track_R5.input" relation="relation69"/>
+        <link port="Track_R5.eastOutput" relation="relation80"/>
+        <link port="Track_R5.southOutput" relation="relation18"/>
+        <link port="Track_R6.input" relation="relation10"/>
+        <link port="Track_R6.input" relation="relation36"/>
+        <link port="Track_R6.input" relation="relation62"/>
+        <link port="Track_R6.northOutput" relation="relation9"/>
+        <link port="Track_R6.eastOutput" relation="relation4"/>
+        <link port="Track_R6.southOutput" relation="relation37"/>
+        <link port="Track_R7.input" relation="relation4"/>
+        <link port="Track_R7.input" relation="relation12"/>
+        <link port="Track_R7.input" relation="relation38"/>
+        <link port="Track_R7.northOutput" relation="relation11"/>
+        <link port="Track_R7.eastOutput" relation="relation7"/>
+        <link port="Track_R7.southOutput" relation="relation39"/>
+        <link port="Track_R8.input" relation="relation7"/>
+        <link port="Track_R8.input" relation="relation14"/>
+        <link port="Track_R8.input" relation="relation40"/>
+        <link port="Track_R8.northOutput" relation="relation13"/>
+        <link port="Track_R8.eastOutput" relation="relation6"/>
+        <link port="Track_R8.southOutput" relation="relation41"/>
+        <link port="Track_R9.input" relation="relation6"/>
+        <link port="Track_R9.input" relation="relation16"/>
+        <link port="Track_R9.input" relation="relation42"/>
+        <link port="Track_R9.northOutput" relation="relation15"/>
+        <link port="Track_R9.eastOutput" relation="relation8"/>
+        <link port="Track_R9.southOutput" relation="relation43"/>
+        <link port="Track_R10.input" relation="relation8"/>
+        <link port="Track_R10.input" relation="relation18"/>
+        <link port="Track_R10.input" relation="relation44"/>
+        <link port="Track_R10.northOutput" relation="relation17"/>
+        <link port="Track_R10.eastOutput" relation="relation81"/>
+        <link port="Track_R10.southOutput" relation="relation45"/>
+        <link port="Track_R11.input" relation="relation27"/>
+        <link port="Track_R11.input" relation="relation37"/>
+        <link port="Track_R11.input" relation="relation63"/>
+        <link port="Track_R11.northOutput" relation="relation36"/>
+        <link port="Track_R11.eastOutput" relation="relation19"/>
+        <link port="Track_R11.southOutput" relation="relation46"/>
+        <link port="Track_R12.input" relation="relation19"/>
+        <link port="Track_R12.input" relation="relation28"/>
+        <link port="Track_R12.input" relation="relation39"/>
+        <link port="Track_R12.northOutput" relation="relation38"/>
+        <link port="Track_R12.eastOutput" relation="relation21"/>
+        <link port="Track_R12.southOutput" relation="relation29"/>
+        <link port="Track_R13.input" relation="relation21"/>
+        <link port="Track_R13.input" relation="relation30"/>
+        <link port="Track_R13.input" relation="relation41"/>
+        <link port="Track_R13.northOutput" relation="relation40"/>
+        <link port="Track_R13.eastOutput" relation="relation20"/>
+        <link port="Track_R13.southOutput" relation="relation31"/>
+        <link port="Track_R14.input" relation="relation20"/>
+        <link port="Track_R14.input" relation="relation32"/>
+        <link port="Track_R14.input" relation="relation43"/>
+        <link port="Track_R14.northOutput" relation="relation42"/>
+        <link port="Track_R14.eastOutput" relation="relation22"/>
+        <link port="Track_R14.southOutput" relation="relation33"/>
+        <link port="Track_R15.input" relation="relation22"/>
+        <link port="Track_R15.input" relation="relation34"/>
+        <link port="Track_R15.input" relation="relation45"/>
+        <link port="Track_R15.northOutput" relation="relation44"/>
+        <link port="Track_R15.eastOutput" relation="relation82"/>
+        <link port="Track_R15.southOutput" relation="relation35"/>
+        <link port="Track_R16.input" relation="relation46"/>
+        <link port="Track_R16.input" relation="relation51"/>
+        <link port="Track_R16.input" relation="relation64"/>
+        <link port="Track_R16.northOutput" relation="relation27"/>
+        <link port="Track_R16.eastOutput" relation="relation23"/>
+        <link port="Track_R16.southOutput" relation="relation52"/>
+        <link port="Track_R17.input" relation="relation23"/>
+        <link port="Track_R17.input" relation="relation29"/>
+        <link port="Track_R17.input" relation="relation53"/>
+        <link port="Track_R17.northOutput" relation="relation28"/>
+        <link port="Track_R17.eastOutput" relation="relation25"/>
+        <link port="Track_R17.southOutput" relation="relation54"/>
+        <link port="Track_R18.input" relation="relation25"/>
+        <link port="Track_R18.input" relation="relation31"/>
+        <link port="Track_R18.input" relation="relation55"/>
+        <link port="Track_R18.northOutput" relation="relation30"/>
+        <link port="Track_R18.eastOutput" relation="relation24"/>
+        <link port="Track_R18.southOutput" relation="relation56"/>
+        <link port="Track_R19.input" relation="relation24"/>
+        <link port="Track_R19.input" relation="relation33"/>
+        <link port="Track_R19.input" relation="relation57"/>
+        <link port="Track_R19.northOutput" relation="relation32"/>
+        <link port="Track_R19.eastOutput" relation="relation26"/>
+        <link port="Track_R19.southOutput" relation="relation58"/>
+        <link port="Track_R20.input" relation="relation26"/>
+        <link port="Track_R20.input" relation="relation35"/>
+        <link port="Track_R20.input" relation="relation59"/>
+        <link port="Track_R20.northOutput" relation="relation34"/>
+        <link port="Track_R20.eastOutput" relation="relation83"/>
+        <link port="Track_R20.southOutput" relation="relation60"/>
+        <link port="Track_R21.input" relation="relation52"/>
+        <link port="Track_R21.input" relation="relation65"/>
+        <link port="Track_R21.input" relation="relation70"/>
+        <link port="Track_R21.northOutput" relation="relation51"/>
+        <link port="Track_R21.eastOutput" relation="relation47"/>
+        <link port="Track_R21.southOutput" relation="relation75"/>
+        <link port="Track_R22.input" relation="relation47"/>
+        <link port="Track_R22.input" relation="relation54"/>
+        <link port="Track_R22.input" relation="relation71"/>
+        <link port="Track_R22.northOutput" relation="relation53"/>
+        <link port="Track_R22.eastOutput" relation="relation49"/>
+        <link port="Track_R22.southOutput" relation="relation76"/>
+        <link port="Track_R23.input" relation="relation49"/>
+        <link port="Track_R23.input" relation="relation56"/>
+        <link port="Track_R23.input" relation="relation72"/>
+        <link port="Track_R23.northOutput" relation="relation55"/>
+        <link port="Track_R23.eastOutput" relation="relation48"/>
+        <link port="Track_R23.southOutput" relation="relation77"/>
+        <link port="Track_R24.input" relation="relation48"/>
+        <link port="Track_R24.input" relation="relation58"/>
+        <link port="Track_R24.input" relation="relation73"/>
+        <link port="Track_R24.northOutput" relation="relation57"/>
+        <link port="Track_R24.eastOutput" relation="relation50"/>
+        <link port="Track_R24.southOutput" relation="relation78"/>
+        <link port="Track_R25.input" relation="relation50"/>
+        <link port="Track_R25.input" relation="relation60"/>
+        <link port="Track_R25.input" relation="relation74"/>
+        <link port="Track_R25.northOutput" relation="relation59"/>
+        <link port="Track_R25.eastOutput" relation="relation84"/>
+        <link port="Track_R25.southOutput" relation="relation79"/>
+        <link port="Airport_R.output" relation="relation61"/>
+        <link port="Airport_R2.output" relation="relation62"/>
+        <link port="Airport_R3.output" relation="relation63"/>
+        <link port="Airport_R4.output" relation="relation64"/>
+        <link port="Airport_R5.output" relation="relation65"/>
+        <link port="Airport_R6.output" relation="relation66"/>
+        <link port="Airport_R7.output" relation="relation67"/>
+        <link port="Airport_R8.output" relation="relation68"/>
+        <link port="Airport_R9.output" relation="relation69"/>
+    </entity>
+    <entity name="ControlArea2" class="ptolemy.domains.atc.lib.ControlArea">
+        <property name="_location" class="ptolemy.kernel.util.Location" value="[501.0, 137.0]">
+        </property>
+        <property name="InsideDirector" class="ptolemy.domains.atc.kernel.policy1.InsideDirector">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[115.0, 205.0]">
+            </property>
+        </property>
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-8, -8, 1382, 744}, maximized=true}">
+        </property>
+        <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1154, 627]">
+        </property>
+        <property name="_vergilZoomFactor" class="ptolemy.data.expr.ExpertParameter" value="1.0">
+        </property>
+        <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{522.0, 480.765625}">
+        </property>
+        <port name="input1" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[105.0, 330.0]">
+            </property>
+        </port>
+        <port name="input2" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[110.0, 415.0]">
+            </property>
+        </port>
+        <port name="input3" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[115.0, 505.0]">
+            </property>
+        </port>
+        <port name="input4" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[120.0, 590.0]">
+            </property>
+        </port>
+        <port name="input5" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[120.0, 660.0]">
+            </property>
+        </port>
+        <port name="input6" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 210.0]">
+            </property>
+        </port>
+        <port name="input7" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 250.0]">
+            </property>
+        </port>
+        <port name="input8" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 290.0]">
+            </property>
+        </port>
+        <port name="input9" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 330.0]">
+            </property>
+        </port>
+        <port name="nInput1" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[210.0, 725.0]">
+            </property>
+        </port>
+        <port name="nInput2" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[310.0, 725.0]">
+            </property>
+        </port>
+        <port name="nInput3" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[420.0, 725.0]">
+            </property>
+        </port>
+        <port name="nInput4" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[510.0, 745.0]">
+            </property>
+        </port>
+        <port name="nInput5" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[620.0, 745.0]">
+            </property>
+        </port>
+        <port name="nInput6" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 570.0]">
+            </property>
+        </port>
+        <port name="nInput7" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 610.0]">
+            </property>
+        </port>
+        <port name="nInput8" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 655.0]">
+            </property>
+        </port>
+        <port name="nInput9" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 695.0]">
+            </property>
+        </port>
+        <port name="output1" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[270.0, 720.0]">
+            </property>
+        </port>
+        <port name="output2" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[370.0, 730.0]">
+            </property>
+        </port>
+        <port name="output3" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[470.0, 725.0]">
+            </property>
+        </port>
+        <port name="output4" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[580.0, 730.0]">
+            </property>
+        </port>
+        <port name="output5" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[670.0, 710.0]">
+            </property>
+        </port>
+        <port name="output6" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 215.0]">
+            </property>
+        </port>
+        <port name="output7" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 255.0]">
+            </property>
+        </port>
+        <port name="output8" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 295.0]">
+            </property>
+        </port>
+        <port name="output9" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 335.0]">
+            </property>
+        </port>
+        <port name="nOutput1" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[825.0, 550.0]">
+            </property>
+        </port>
+        <port name="nOutput2" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[835.0, 590.0]">
+            </property>
+        </port>
+        <port name="nOutput3" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[895.0, 630.0]">
+            </property>
+        </port>
+        <port name="nOutput4" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[885.0, 680.0]">
+            </property>
+        </port>
+        <port name="nOutput5" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[890.0, 730.0]">
+            </property>
+        </port>
+        <port name="nOutput6" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 375.0]">
+            </property>
+        </port>
+        <port name="nOutput7" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 415.0]">
+            </property>
+        </port>
+        <port name="nOutput8" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 455.0]">
+            </property>
+        </port>
+        <port name="nOutput9" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 495.0]">
+            </property>
+        </port>
+        <entity name="Track_R" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="230">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[190.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R2" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="231">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[285.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R3" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="232">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[375.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R4" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="233">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[470.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R5" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="234">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[560.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R6" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="{220.0, 415.0}">
+            </property>
+        </entity>
+        <entity name="Track_R7" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[320.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R8" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[405.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R9" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[500.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R10" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[590.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R11" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[230.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R12" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[325.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R13" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[415.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R14" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[510.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R15" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[600.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R16" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[260.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R17" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[355.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R18" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[445.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R19" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[535.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R20" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[630.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R21" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[265.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R22" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[360.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R23" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[450.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R24" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[545.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R25" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[635.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R6" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="airportId" class="ptolemy.data.expr.Parameter" value="230">
+            </property>
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{21}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[117.5, 270.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R7" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="airportId" class="ptolemy.data.expr.Parameter" value="231">
+            </property>
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{22}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[217.5, 264.0625]">
+            </property>
+        </entity>
+        <entity name="Airport_R8" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="airportId" class="ptolemy.data.expr.Parameter" value="232">
+            </property>
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{23}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[302.890625, 260.9375]">
+            </property>
+        </entity>
+        <entity name="Airport_R9" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="airportId" class="ptolemy.data.expr.Parameter" value="233">
+            </property>
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{24}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[390.0, 265.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R10" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="airportId" class="ptolemy.data.expr.Parameter" value="234">
+            </property>
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{25}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[490.0, 260.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[680.0, 330.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R2" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[685.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R3" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[695.0, 496.875]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R4" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[715.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R5" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[740.0, 665.0]">
+            </property>
+        </entity>
+        <relation name="relation" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation2" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation3" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation5" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation4" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation6" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation7" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation8" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation9" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation10" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation11" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation12" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation13" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation14" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation15" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation16" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation17" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation18" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation19" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation20" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation21" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation22" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation23" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation24" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation25" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation26" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation27" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation28" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation29" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation30" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation31" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation32" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation33" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation34" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation35" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation36" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation37" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation38" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation39" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation40" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation41" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation42" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation43" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation44" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation45" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation46" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation47" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation48" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation49" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation50" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation51" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation52" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation53" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation54" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation55" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation56" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation57" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation58" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation59" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation60" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation75" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation76" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation77" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation78" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation79" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation61" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation62" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation63" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation64" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation65" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation66" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation67" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation68" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation69" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation70" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation71" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation72" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation73" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation74" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation80" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation81" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation82" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation83" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation84" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation85" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <link port="input1" relation="relation66"/>
+        <link port="input2" relation="relation67"/>
+        <link port="input3" relation="relation68"/>
+        <link port="input4" relation="relation69"/>
+        <link port="input5" relation="relation70"/>
+        <link port="nInput1" relation="relation71"/>
+        <link port="nInput2" relation="relation72"/>
+        <link port="nInput3" relation="relation73"/>
+        <link port="nInput4" relation="relation74"/>
+        <link port="nInput5" relation="relation80"/>
+        <link port="output1" relation="relation75"/>
+        <link port="output2" relation="relation76"/>
+        <link port="output3" relation="relation77"/>
+        <link port="output4" relation="relation78"/>
+        <link port="output5" relation="relation79"/>
+        <link port="Track_R.input" relation="relation9"/>
+        <link port="Track_R.input" relation="relation61"/>
+        <link port="Track_R.input" relation="relation66"/>
+        <link port="Track_R.eastOutput" relation="relation"/>
+        <link port="Track_R.southOutput" relation="relation10"/>
+        <link port="Track_R2.input" relation="relation"/>
+        <link port="Track_R2.input" relation="relation11"/>
+        <link port="Track_R2.input" relation="relation62"/>
+        <link port="Track_R2.eastOutput" relation="relation3"/>
+        <link port="Track_R2.southOutput" relation="relation12"/>
+        <link port="Track_R3.input" relation="relation3"/>
+        <link port="Track_R3.input" relation="relation13"/>
+        <link port="Track_R3.input" relation="relation63"/>
+        <link port="Track_R3.eastOutput" relation="relation2"/>
+        <link port="Track_R3.southOutput" relation="relation14"/>
+        <link port="Track_R4.input" relation="relation2"/>
+        <link port="Track_R4.input" relation="relation15"/>
+        <link port="Track_R4.input" relation="relation64"/>
+        <link port="Track_R4.eastOutput" relation="relation5"/>
+        <link port="Track_R4.southOutput" relation="relation16"/>
+        <link port="Track_R5.input" relation="relation5"/>
+        <link port="Track_R5.input" relation="relation17"/>
+        <link port="Track_R5.input" relation="relation65"/>
+        <link port="Track_R5.eastOutput" relation="relation81"/>
+        <link port="Track_R5.southOutput" relation="relation18"/>
+        <link port="Track_R6.input" relation="relation10"/>
+        <link port="Track_R6.input" relation="relation36"/>
+        <link port="Track_R6.input" relation="relation67"/>
+        <link port="Track_R6.northOutput" relation="relation9"/>
+        <link port="Track_R6.eastOutput" relation="relation4"/>
+        <link port="Track_R6.southOutput" relation="relation37"/>
+        <link port="Track_R7.input" relation="relation4"/>
+        <link port="Track_R7.input" relation="relation12"/>
+        <link port="Track_R7.input" relation="relation38"/>
+        <link port="Track_R7.northOutput" relation="relation11"/>
+        <link port="Track_R7.eastOutput" relation="relation7"/>
+        <link port="Track_R7.southOutput" relation="relation39"/>
+        <link port="Track_R8.input" relation="relation7"/>
+        <link port="Track_R8.input" relation="relation14"/>
+        <link port="Track_R8.input" relation="relation40"/>
+        <link port="Track_R8.northOutput" relation="relation13"/>
+        <link port="Track_R8.eastOutput" relation="relation6"/>
+        <link port="Track_R8.southOutput" relation="relation41"/>
+        <link port="Track_R9.input" relation="relation6"/>
+        <link port="Track_R9.input" relation="relation16"/>
+        <link port="Track_R9.input" relation="relation42"/>
+        <link port="Track_R9.northOutput" relation="relation15"/>
+        <link port="Track_R9.eastOutput" relation="relation8"/>
+        <link port="Track_R9.southOutput" relation="relation43"/>
+        <link port="Track_R10.input" relation="relation8"/>
+        <link port="Track_R10.input" relation="relation18"/>
+        <link port="Track_R10.input" relation="relation44"/>
+        <link port="Track_R10.northOutput" relation="relation17"/>
+        <link port="Track_R10.eastOutput" relation="relation82"/>
+        <link port="Track_R10.southOutput" relation="relation45"/>
+        <link port="Track_R11.input" relation="relation27"/>
+        <link port="Track_R11.input" relation="relation37"/>
+        <link port="Track_R11.input" relation="relation68"/>
+        <link port="Track_R11.northOutput" relation="relation36"/>
+        <link port="Track_R11.eastOutput" relation="relation19"/>
+        <link port="Track_R11.southOutput" relation="relation46"/>
+        <link port="Track_R12.input" relation="relation19"/>
+        <link port="Track_R12.input" relation="relation28"/>
+        <link port="Track_R12.input" relation="relation39"/>
+        <link port="Track_R12.northOutput" relation="relation38"/>
+        <link port="Track_R12.eastOutput" relation="relation21"/>
+        <link port="Track_R12.southOutput" relation="relation29"/>
+        <link port="Track_R13.input" relation="relation21"/>
+        <link port="Track_R13.input" relation="relation30"/>
+        <link port="Track_R13.input" relation="relation41"/>
+        <link port="Track_R13.northOutput" relation="relation40"/>
+        <link port="Track_R13.eastOutput" relation="relation20"/>
+        <link port="Track_R13.southOutput" relation="relation31"/>
+        <link port="Track_R14.input" relation="relation20"/>
+        <link port="Track_R14.input" relation="relation32"/>
+        <link port="Track_R14.input" relation="relation43"/>
+        <link port="Track_R14.northOutput" relation="relation42"/>
+        <link port="Track_R14.eastOutput" relation="relation22"/>
+        <link port="Track_R14.southOutput" relation="relation33"/>
+        <link port="Track_R15.input" relation="relation22"/>
+        <link port="Track_R15.input" relation="relation34"/>
+        <link port="Track_R15.input" relation="relation45"/>
+        <link port="Track_R15.northOutput" relation="relation44"/>
+        <link port="Track_R15.eastOutput" relation="relation83"/>
+        <link port="Track_R15.southOutput" relation="relation35"/>
+        <link port="Track_R16.input" relation="relation46"/>
+        <link port="Track_R16.input" relation="relation51"/>
+        <link port="Track_R16.input" relation="relation69"/>
+        <link port="Track_R16.northOutput" relation="relation27"/>
+        <link port="Track_R16.eastOutput" relation="relation23"/>
+        <link port="Track_R16.southOutput" relation="relation52"/>
+        <link port="Track_R17.input" relation="relation23"/>
+        <link port="Track_R17.input" relation="relation29"/>
+        <link port="Track_R17.input" relation="relation53"/>
+        <link port="Track_R17.northOutput" relation="relation28"/>
+        <link port="Track_R17.eastOutput" relation="relation25"/>
+        <link port="Track_R17.southOutput" relation="relation54"/>
+        <link port="Track_R18.input" relation="relation25"/>
+        <link port="Track_R18.input" relation="relation31"/>
+        <link port="Track_R18.input" relation="relation55"/>
+        <link port="Track_R18.northOutput" relation="relation30"/>
+        <link port="Track_R18.eastOutput" relation="relation24"/>
+        <link port="Track_R18.southOutput" relation="relation56"/>
+        <link port="Track_R19.input" relation="relation24"/>
+        <link port="Track_R19.input" relation="relation33"/>
+        <link port="Track_R19.input" relation="relation57"/>
+        <link port="Track_R19.northOutput" relation="relation32"/>
+        <link port="Track_R19.eastOutput" relation="relation26"/>
+        <link port="Track_R19.southOutput" relation="relation58"/>
+        <link port="Track_R20.input" relation="relation26"/>
+        <link port="Track_R20.input" relation="relation35"/>
+        <link port="Track_R20.input" relation="relation59"/>
+        <link port="Track_R20.northOutput" relation="relation34"/>
+        <link port="Track_R20.eastOutput" relation="relation84"/>
+        <link port="Track_R20.southOutput" relation="relation60"/>
+        <link port="Track_R21.input" relation="relation52"/>
+        <link port="Track_R21.input" relation="relation70"/>
+        <link port="Track_R21.input" relation="relation71"/>
+        <link port="Track_R21.northOutput" relation="relation51"/>
+        <link port="Track_R21.eastOutput" relation="relation47"/>
+        <link port="Track_R21.southOutput" relation="relation75"/>
+        <link port="Track_R22.input" relation="relation47"/>
+        <link port="Track_R22.input" relation="relation54"/>
+        <link port="Track_R22.input" relation="relation72"/>
+        <link port="Track_R22.northOutput" relation="relation53"/>
+        <link port="Track_R22.eastOutput" relation="relation49"/>
+        <link port="Track_R22.southOutput" relation="relation76"/>
+        <link port="Track_R23.input" relation="relation49"/>
+        <link port="Track_R23.input" relation="relation56"/>
+        <link port="Track_R23.input" relation="relation73"/>
+        <link port="Track_R23.northOutput" relation="relation55"/>
+        <link port="Track_R23.eastOutput" relation="relation48"/>
+        <link port="Track_R23.southOutput" relation="relation77"/>
+        <link port="Track_R24.input" relation="relation48"/>
+        <link port="Track_R24.input" relation="relation58"/>
+        <link port="Track_R24.input" relation="relation74"/>
+        <link port="Track_R24.northOutput" relation="relation57"/>
+        <link port="Track_R24.eastOutput" relation="relation50"/>
+        <link port="Track_R24.southOutput" relation="relation78"/>
+        <link port="Track_R25.input" relation="relation50"/>
+        <link port="Track_R25.input" relation="relation60"/>
+        <link port="Track_R25.input" relation="relation80"/>
+        <link port="Track_R25.northOutput" relation="relation59"/>
+        <link port="Track_R25.eastOutput" relation="relation85"/>
+        <link port="Track_R25.southOutput" relation="relation79"/>
+        <link port="Airport_R6.output" relation="relation61"/>
+        <link port="Airport_R7.output" relation="relation62"/>
+        <link port="Airport_R8.output" relation="relation63"/>
+        <link port="Airport_R9.output" relation="relation64"/>
+        <link port="Airport_R10.output" relation="relation65"/>
+        <link port="DestinationAirport_R.input" relation="relation81"/>
+        <link port="DestinationAirport_R2.input" relation="relation82"/>
+        <link port="DestinationAirport_R3.input" relation="relation83"/>
+        <link port="DestinationAirport_R4.input" relation="relation84"/>
+        <link port="DestinationAirport_R5.input" relation="relation85"/>
+    </entity>
+    <entity name="ControlArea3" class="ptolemy.domains.atc.lib.ControlArea">
+        <property name="_location" class="ptolemy.kernel.util.Location" value="{300.0, 440.0}">
+        </property>
+        <property name="InsideDirector" class="ptolemy.domains.atc.kernel.policy1.InsideDirector">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[200.0, 190.0]">
+            </property>
+        </property>
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-8, -8, 1382, 744}, maximized=true}">
+        </property>
+        <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1154, 627]">
+        </property>
+        <property name="_vergilZoomFactor" class="ptolemy.data.expr.ExpertParameter" value="1.0">
+        </property>
+        <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{522.0, 465.765625}">
+        </property>
+        <port name="input1" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[145.0, 270.0]">
+            </property>
+        </port>
+        <port name="input2" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[243.46875, 281.25]">
+            </property>
+        </port>
+        <port name="input3" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[325.0, 265.0]">
+            </property>
+        </port>
+        <port name="input4" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[435.0, 285.0]">
+            </property>
+        </port>
+        <port name="input5" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[540.0, 220.0]">
+            </property>
+        </port>
+        <port name="input6" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 210.0]">
+            </property>
+        </port>
+        <port name="input7" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 250.0]">
+            </property>
+        </port>
+        <port name="input8" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 290.0]">
+            </property>
+        </port>
+        <port name="input9" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 330.0]">
+            </property>
+        </port>
+        <port name="nInput1" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 370.0]">
+            </property>
+        </port>
+        <port name="nInput2" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 410.0]">
+            </property>
+        </port>
+        <port name="nInput3" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 450.0]">
+            </property>
+        </port>
+        <port name="nInput4" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 490.0]">
+            </property>
+        </port>
+        <port name="nInput5" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 530.0]">
+            </property>
+        </port>
+        <port name="nInput6" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 570.0]">
+            </property>
+        </port>
+        <port name="nInput7" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 610.0]">
+            </property>
+        </port>
+        <port name="nInput8" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 655.0]">
+            </property>
+        </port>
+        <port name="nInput9" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 695.0]">
+            </property>
+        </port>
+        <port name="output1" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[685.0, 335.0]">
+            </property>
+        </port>
+        <port name="output2" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[670.0, 415.0]">
+            </property>
+        </port>
+        <port name="output3" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[695.0, 505.0]">
+            </property>
+        </port>
+        <port name="output4" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[715.0, 585.0]">
+            </property>
+        </port>
+        <port name="output5" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[715.0, 665.0]">
+            </property>
+        </port>
+        <port name="output6" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 215.0]">
+            </property>
+        </port>
+        <port name="output7" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 255.0]">
+            </property>
+        </port>
+        <port name="output8" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 295.0]">
+            </property>
+        </port>
+        <port name="output9" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 335.0]">
+            </property>
+        </port>
+        <port name="nOutput1" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[200.0, 270.0]">
+            </property>
+        </port>
+        <port name="nOutput2" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[290.0, 230.0]">
+            </property>
+        </port>
+        <port name="nOutput3" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[390.0, 275.0]">
+            </property>
+        </port>
+        <port name="nOutput4" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[485.0, 265.0]">
+            </property>
+        </port>
+        <port name="nOutput5" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[640.0, 290.0]">
+            </property>
+        </port>
+        <port name="nOutput6" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 375.0]">
+            </property>
+        </port>
+        <port name="nOutput7" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 415.0]">
+            </property>
+        </port>
+        <port name="nOutput8" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 455.0]">
+            </property>
+        </port>
+        <port name="nOutput9" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 495.0]">
+            </property>
+        </port>
+        <entity name="Track_R" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="326">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[190.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R2" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[285.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R3" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[375.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R4" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="stormy" class="ptolemy.data.expr.Parameter" value="false">
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[470.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R5" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[560.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R6" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="327">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[220.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R7" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[315.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R8" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[405.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R9" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[500.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R10" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[590.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R11" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="328">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[230.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R12" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[325.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R13" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[415.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R14" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[510.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R15" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[600.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R16" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="329">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[260.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R17" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[355.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R18" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[445.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R19" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[535.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R20" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[630.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R21" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="330">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[265.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R22" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="{360.0, 665.0}">
+            </property>
+        </entity>
+        <entity name="Track_R23" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[450.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R24" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[545.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R25" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[635.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{31}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[85.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R2" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{36}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[95.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R3" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{311}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[100.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R4" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{316}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[105.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Airport_R5" class="ptolemy.domains.atc.lib.Airport_R">
+            <property name="connectedTracks" class="ptolemy.data.expr.Parameter" value="{321}">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[110.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R6" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="airportId" class="ptolemy.data.expr.Parameter" value="340">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[220.0, 755.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R7" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="airportId" class="ptolemy.data.expr.Parameter" value="341">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[355.0, 740.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R9" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="airportId" class="ptolemy.data.expr.Parameter" value="343">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[590.0, 770.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R8" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="airportId" class="ptolemy.data.expr.Parameter" value="342">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[485.0, 750.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R10" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="airportId" class="ptolemy.data.expr.Parameter" value="344">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[765.0, 745.0]">
+            </property>
+        </entity>
+        <relation name="relation" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation2" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation3" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation5" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation4" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation6" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation7" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation8" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation9" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation10" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation11" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation12" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation13" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation14" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation15" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation16" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation17" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation18" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation19" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation20" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation21" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation22" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation23" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation24" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation25" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation26" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation27" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation28" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation29" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation30" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation31" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation32" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation33" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation34" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation35" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation36" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation37" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation38" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation39" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation40" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation41" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation42" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation43" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation44" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation45" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation46" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation47" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation48" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation49" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation50" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation51" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation52" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation53" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation54" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation55" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation56" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation57" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation58" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation59" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation60" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation63" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation64" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation65" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation66" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation67" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation68" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation69" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation70" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation71" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation72" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation73" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation74" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation75" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation76" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation77" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation78" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation79" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation80" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation81" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation82" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation83" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation84" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation85" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation86" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <relation name="relation61" class="ptolemy.actor.TypedIORelation">
+            <property name="width" class="ptolemy.data.expr.Parameter" value="1">
+            </property>
+        </relation>
+        <link port="input1" relation="relation71"/>
+        <link port="input2" relation="relation73"/>
+        <link port="input3" relation="relation75"/>
+        <link port="input4" relation="relation77"/>
+        <link port="input5" relation="relation79"/>
+        <link port="output1" relation="relation66"/>
+        <link port="output2" relation="relation67"/>
+        <link port="output3" relation="relation68"/>
+        <link port="output4" relation="relation69"/>
+        <link port="output5" relation="relation70"/>
+        <link port="nOutput1" relation="relation72"/>
+        <link port="nOutput2" relation="relation74"/>
+        <link port="nOutput3" relation="relation76"/>
+        <link port="nOutput4" relation="relation78"/>
+        <link port="nOutput5" relation="relation80"/>
+        <link port="Track_R.input" relation="relation9"/>
+        <link port="Track_R.input" relation="relation71"/>
+        <link port="Track_R.input" relation="relation86"/>
+        <link port="Track_R.northOutput" relation="relation72"/>
+        <link port="Track_R.eastOutput" relation="relation"/>
+        <link port="Track_R.southOutput" relation="relation10"/>
+        <link port="Track_R2.input" relation="relation"/>
+        <link port="Track_R2.input" relation="relation11"/>
+        <link port="Track_R2.input" relation="relation73"/>
+        <link port="Track_R2.northOutput" relation="relation74"/>
+        <link port="Track_R2.eastOutput" relation="relation3"/>
+        <link port="Track_R2.southOutput" relation="relation12"/>
+        <link port="Track_R3.input" relation="relation3"/>
+        <link port="Track_R3.input" relation="relation13"/>
+        <link port="Track_R3.input" relation="relation75"/>
+        <link port="Track_R3.northOutput" relation="relation76"/>
+        <link port="Track_R3.eastOutput" relation="relation2"/>
+        <link port="Track_R3.southOutput" relation="relation14"/>
+        <link port="Track_R4.input" relation="relation2"/>
+        <link port="Track_R4.input" relation="relation15"/>
+        <link port="Track_R4.input" relation="relation77"/>
+        <link port="Track_R4.northOutput" relation="relation78"/>
+        <link port="Track_R4.eastOutput" relation="relation5"/>
+        <link port="Track_R4.southOutput" relation="relation16"/>
+        <link port="Track_R5.input" relation="relation5"/>
+        <link port="Track_R5.input" relation="relation17"/>
+        <link port="Track_R5.input" relation="relation79"/>
+        <link port="Track_R5.northOutput" relation="relation80"/>
+        <link port="Track_R5.eastOutput" relation="relation66"/>
+        <link port="Track_R5.southOutput" relation="relation18"/>
+        <link port="Track_R6.input" relation="relation10"/>
+        <link port="Track_R6.input" relation="relation36"/>
+        <link port="Track_R6.input" relation="relation61"/>
+        <link port="Track_R6.northOutput" relation="relation9"/>
+        <link port="Track_R6.eastOutput" relation="relation4"/>
+        <link port="Track_R6.southOutput" relation="relation37"/>
+        <link port="Track_R7.input" relation="relation4"/>
+        <link port="Track_R7.input" relation="relation12"/>
+        <link port="Track_R7.input" relation="relation38"/>
+        <link port="Track_R7.northOutput" relation="relation11"/>
+        <link port="Track_R7.eastOutput" relation="relation7"/>
+        <link port="Track_R7.southOutput" relation="relation39"/>
+        <link port="Track_R8.input" relation="relation7"/>
+        <link port="Track_R8.input" relation="relation14"/>
+        <link port="Track_R8.input" relation="relation40"/>
+        <link port="Track_R8.northOutput" relation="relation13"/>
+        <link port="Track_R8.eastOutput" relation="relation6"/>
+        <link port="Track_R8.southOutput" relation="relation41"/>
+        <link port="Track_R9.input" relation="relation6"/>
+        <link port="Track_R9.input" relation="relation16"/>
+        <link port="Track_R9.input" relation="relation42"/>
+        <link port="Track_R9.northOutput" relation="relation15"/>
+        <link port="Track_R9.eastOutput" relation="relation8"/>
+        <link port="Track_R9.southOutput" relation="relation43"/>
+        <link port="Track_R10.input" relation="relation8"/>
+        <link port="Track_R10.input" relation="relation18"/>
+        <link port="Track_R10.input" relation="relation44"/>
+        <link port="Track_R10.northOutput" relation="relation17"/>
+        <link port="Track_R10.eastOutput" relation="relation67"/>
+        <link port="Track_R10.southOutput" relation="relation45"/>
+        <link port="Track_R11.input" relation="relation27"/>
+        <link port="Track_R11.input" relation="relation37"/>
+        <link port="Track_R11.input" relation="relation63"/>
+        <link port="Track_R11.northOutput" relation="relation36"/>
+        <link port="Track_R11.eastOutput" relation="relation19"/>
+        <link port="Track_R11.southOutput" relation="relation46"/>
+        <link port="Track_R12.input" relation="relation19"/>
+        <link port="Track_R12.input" relation="relation28"/>
+        <link port="Track_R12.input" relation="relation39"/>
+        <link port="Track_R12.northOutput" relation="relation38"/>
+        <link port="Track_R12.eastOutput" relation="relation21"/>
+        <link port="Track_R12.southOutput" relation="relation29"/>
+        <link port="Track_R13.input" relation="relation21"/>
+        <link port="Track_R13.input" relation="relation30"/>
+        <link port="Track_R13.input" relation="relation41"/>
+        <link port="Track_R13.northOutput" relation="relation40"/>
+        <link port="Track_R13.eastOutput" relation="relation20"/>
+        <link port="Track_R13.southOutput" relation="relation31"/>
+        <link port="Track_R14.input" relation="relation20"/>
+        <link port="Track_R14.input" relation="relation32"/>
+        <link port="Track_R14.input" relation="relation43"/>
+        <link port="Track_R14.northOutput" relation="relation42"/>
+        <link port="Track_R14.eastOutput" relation="relation22"/>
+        <link port="Track_R14.southOutput" relation="relation33"/>
+        <link port="Track_R15.input" relation="relation22"/>
+        <link port="Track_R15.input" relation="relation34"/>
+        <link port="Track_R15.input" relation="relation45"/>
+        <link port="Track_R15.northOutput" relation="relation44"/>
+        <link port="Track_R15.eastOutput" relation="relation68"/>
+        <link port="Track_R15.southOutput" relation="relation35"/>
+        <link port="Track_R16.input" relation="relation46"/>
+        <link port="Track_R16.input" relation="relation51"/>
+        <link port="Track_R16.input" relation="relation64"/>
+        <link port="Track_R16.northOutput" relation="relation27"/>
+        <link port="Track_R16.eastOutput" relation="relation23"/>
+        <link port="Track_R16.southOutput" relation="relation52"/>
+        <link port="Track_R17.input" relation="relation23"/>
+        <link port="Track_R17.input" relation="relation29"/>
+        <link port="Track_R17.input" relation="relation53"/>
+        <link port="Track_R17.northOutput" relation="relation28"/>
+        <link port="Track_R17.eastOutput" relation="relation25"/>
+        <link port="Track_R17.southOutput" relation="relation54"/>
+        <link port="Track_R18.input" relation="relation25"/>
+        <link port="Track_R18.input" relation="relation31"/>
+        <link port="Track_R18.input" relation="relation55"/>
+        <link port="Track_R18.northOutput" relation="relation30"/>
+        <link port="Track_R18.eastOutput" relation="relation24"/>
+        <link port="Track_R18.southOutput" relation="relation56"/>
+        <link port="Track_R19.input" relation="relation24"/>
+        <link port="Track_R19.input" relation="relation33"/>
+        <link port="Track_R19.input" relation="relation57"/>
+        <link port="Track_R19.northOutput" relation="relation32"/>
+        <link port="Track_R19.eastOutput" relation="relation26"/>
+        <link port="Track_R19.southOutput" relation="relation58"/>
+        <link port="Track_R20.input" relation="relation26"/>
+        <link port="Track_R20.input" relation="relation35"/>
+        <link port="Track_R20.input" relation="relation59"/>
+        <link port="Track_R20.northOutput" relation="relation34"/>
+        <link port="Track_R20.eastOutput" relation="relation69"/>
+        <link port="Track_R20.southOutput" relation="relation60"/>
+        <link port="Track_R21.input" relation="relation52"/>
+        <link port="Track_R21.input" relation="relation65"/>
+        <link port="Track_R21.northOutput" relation="relation51"/>
+        <link port="Track_R21.eastOutput" relation="relation47"/>
+        <link port="Track_R21.southOutput" relation="relation81"/>
+        <link port="Track_R22.input" relation="relation47"/>
+        <link port="Track_R22.input" relation="relation54"/>
+        <link port="Track_R22.northOutput" relation="relation53"/>
+        <link port="Track_R22.eastOutput" relation="relation49"/>
+        <link port="Track_R22.southOutput" relation="relation82"/>
+        <link port="Track_R23.input" relation="relation49"/>
+        <link port="Track_R23.input" relation="relation56"/>
+        <link port="Track_R23.northOutput" relation="relation55"/>
+        <link port="Track_R23.eastOutput" relation="relation48"/>
+        <link port="Track_R23.southOutput" relation="relation83"/>
+        <link port="Track_R24.input" relation="relation48"/>
+        <link port="Track_R24.input" relation="relation58"/>
+        <link port="Track_R24.northOutput" relation="relation57"/>
+        <link port="Track_R24.eastOutput" relation="relation50"/>
+        <link port="Track_R24.southOutput" relation="relation84"/>
+        <link port="Track_R25.input" relation="relation50"/>
+        <link port="Track_R25.input" relation="relation60"/>
+        <link port="Track_R25.northOutput" relation="relation59"/>
+        <link port="Track_R25.eastOutput" relation="relation70"/>
+        <link port="Track_R25.southOutput" relation="relation85"/>
+        <link port="Airport_R.output" relation="relation86"/>
+        <link port="Airport_R2.output" relation="relation61"/>
+        <link port="Airport_R3.output" relation="relation63"/>
+        <link port="Airport_R4.output" relation="relation64"/>
+        <link port="Airport_R5.output" relation="relation65"/>
+        <link port="DestinationAirport_R6.input" relation="relation81"/>
+        <link port="DestinationAirport_R7.input" relation="relation82"/>
+        <link port="DestinationAirport_R9.input" relation="relation84"/>
+        <link port="DestinationAirport_R8.input" relation="relation83"/>
+        <link port="DestinationAirport_R10.input" relation="relation85"/>
+    </entity>
+    <entity name="ControlArea4" class="ptolemy.domains.atc.lib.ControlArea">
+        <property name="_location" class="ptolemy.kernel.util.Location" value="[601.0, 532.0]">
+        </property>
+        <property name="InsideDirector" class="ptolemy.domains.atc.kernel.policy1.InsideDirector">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[115.0, 205.0]">
+            </property>
+        </property>
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-8, -8, 1382, 744}, maximized=true}">
+        </property>
+        <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1154, 627]">
+        </property>
+        <property name="_vergilZoomFactor" class="ptolemy.data.expr.ExpertParameter" value="1.0">
+        </property>
+        <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{522.0, 480.765625}">
+        </property>
+        <port name="input1" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[105.0, 330.0]">
+            </property>
+        </port>
+        <port name="input2" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[110.0, 415.0]">
+            </property>
+        </port>
+        <port name="input3" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[115.0, 505.0]">
+            </property>
+        </port>
+        <port name="input4" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[120.0, 590.0]">
+            </property>
+        </port>
+        <port name="input5" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[120.0, 660.0]">
+            </property>
+        </port>
+        <port name="input6" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 210.0]">
+            </property>
+        </port>
+        <port name="input7" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 250.0]">
+            </property>
+        </port>
+        <port name="input8" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 290.0]">
+            </property>
+        </port>
+        <port name="input9" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 330.0]">
+            </property>
+        </port>
+        <port name="nInput1" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[115.0, 270.0]">
+            </property>
+        </port>
+        <port name="nInput2" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[240.0, 265.0]">
+            </property>
+        </port>
+        <port name="nInput3" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[335.0, 275.0]">
+            </property>
+        </port>
+        <port name="nInput4" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[425.0, 280.0]">
+            </property>
+        </port>
+        <port name="nInput5" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[520.0, 270.0]">
+            </property>
+        </port>
+        <port name="nInput6" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 570.0]">
+            </property>
+        </port>
+        <port name="nInput7" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 610.0]">
+            </property>
+        </port>
+        <port name="nInput8" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 655.0]">
+            </property>
+        </port>
+        <port name="nInput9" class="ptolemy.actor.TypedIOPort">
+            <property name="input"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[-25.0, 695.0]">
+            </property>
+        </port>
+        <port name="output1" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[985.0, 350.0]">
+            </property>
+        </port>
+        <port name="output2" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[945.0, 435.0]">
+            </property>
+        </port>
+        <port name="output3" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[960.0, 640.0]">
+            </property>
+        </port>
+        <port name="output4" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[950.0, 505.0]">
+            </property>
+        </port>
+        <port name="output5" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[960.0, 585.0]">
+            </property>
+        </port>
+        <port name="output6" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 215.0]">
+            </property>
+        </port>
+        <port name="output7" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 255.0]">
+            </property>
+        </port>
+        <port name="output8" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 295.0]">
+            </property>
+        </port>
+        <port name="output9" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[815.0, 335.0]">
+            </property>
+        </port>
+        <port name="nOutput1" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[175.0, 260.0]">
+            </property>
+        </port>
+        <port name="nOutput2" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[295.0, 260.0]">
+            </property>
+        </port>
+        <port name="nOutput3" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[435.0, 225.0]">
+            </property>
+        </port>
+        <port name="nOutput4" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[500.0, 215.0]">
+            </property>
+        </port>
+        <port name="nOutput5" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[605.0, 275.0]">
+            </property>
+        </port>
+        <port name="nOutput6" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 375.0]">
+            </property>
+        </port>
+        <port name="nOutput7" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 415.0]">
+            </property>
+        </port>
+        <port name="nOutput8" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 455.0]">
+            </property>
+        </port>
+        <port name="nOutput9" class="ptolemy.actor.TypedIOPort">
+            <property name="output"/>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[810.0, 495.0]">
+            </property>
+        </port>
+        <entity name="Track_R" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="231">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[190.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R2" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="232">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[285.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R3" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="233">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[375.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R4" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="234">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[470.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R5" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="connectedSourceAirport" class="ptolemy.data.expr.Parameter" value="235">
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[560.0, 335.0]">
+            </property>
+        </entity>
+        <entity name="Track_R6" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[220.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R7" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[315.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R8" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[405.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R9" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[500.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R10" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[590.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="Track_R11" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[230.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R12" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[325.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R13" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[415.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R14" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[510.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R15" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[600.0, 505.0]">
+            </property>
+        </entity>
+        <entity name="Track_R16" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[260.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R17" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[355.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R18" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[445.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R19" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="{535.0, 585.0}">
+            </property>
+        </entity>
+        <entity name="Track_R20" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[630.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="Track_R21" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[265.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R22" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="{360.0, 665.0}">
+            </property>
+        </entity>
+        <entity name="Track_R23" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[450.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R24" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[545.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="Track_R25" class="ptolemy.domains.atc.lib.Track_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[635.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[680.0, 330.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R2" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[685.0, 415.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R3" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[695.0, 496.875]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R4" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[715.0, 585.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R5" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[740.0, 665.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R6" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;b&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[245.0, 745.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R7" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;pb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[385.0, 755.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R8" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="isBoundary" class="ptolemy.data.expr.Parameter" value="&quot;inb&quot;">
+                <display name="inb: Internal-Boundary, b:Boundary, pb:Pre-Boundary, none: empty"/>
+            </property>
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[505.0, 745.0]">
+            </property>
+        </entity>
+        <entity name="DestinationAirport_R9" class="ptolemy.domains.atc.lib.DestinationAirport_R">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[675.0, 755.0]">
+            </property>
+        </entity>
+        <relation name="relation" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation2" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation3" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation5" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation4" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation6" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation7" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation8" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation9" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation10" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation11" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation12" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation13" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation14" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation15" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation16" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation17" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation18" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation19" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation20" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation21" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation22" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation23" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation24" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation25" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation26" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation27" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation28" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation29" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation30" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation31" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation32" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation33" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation34" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation35" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation36" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation37" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation38" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation39" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation40" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation41" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation42" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation43" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation44" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation45" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation46" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation47" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation48" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation49" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation50" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation51" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation52" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation53" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation54" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation55" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation56" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation57" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation58" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation59" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation60" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation66" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation67" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation68" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation69" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation70" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation81" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation82" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation83" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation84" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation85" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation61" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation62" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation63" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation64" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation65" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation71" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation72" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation73" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation74" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation75" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation76" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation77" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation78" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation79" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <link port="input1" relation="relation66"/>
+        <link port="input2" relation="relation67"/>
+        <link port="input3" relation="relation68"/>
+        <link port="input4" relation="relation69"/>
+        <link port="input5" relation="relation70"/>
+        <link port="nInput1" relation="relation61"/>
+        <link port="nInput2" relation="relation63"/>
+        <link port="nInput3" relation="relation65"/>
+        <link port="nInput4" relation="relation72"/>
+        <link port="nInput5" relation="relation74"/>
+        <link port="nOutput1" relation="relation62"/>
+        <link port="nOutput2" relation="relation64"/>
+        <link port="nOutput3" relation="relation71"/>
+        <link port="nOutput4" relation="relation73"/>
+        <link port="nOutput5" relation="relation75"/>
+        <link port="Track_R.input" relation="relation9"/>
+        <link port="Track_R.input" relation="relation66"/>
+        <link port="Track_R.input" relation="relation61"/>
+        <link port="Track_R.northOutput" relation="relation62"/>
+        <link port="Track_R.eastOutput" relation="relation"/>
+        <link port="Track_R.southOutput" relation="relation10"/>
+        <link port="Track_R2.input" relation="relation"/>
+        <link port="Track_R2.input" relation="relation11"/>
+        <link port="Track_R2.input" relation="relation63"/>
+        <link port="Track_R2.northOutput" relation="relation64"/>
+        <link port="Track_R2.eastOutput" relation="relation3"/>
+        <link port="Track_R2.southOutput" relation="relation12"/>
+        <link port="Track_R3.input" relation="relation3"/>
+        <link port="Track_R3.input" relation="relation13"/>
+        <link port="Track_R3.input" relation="relation65"/>
+        <link port="Track_R3.northOutput" relation="relation71"/>
+        <link port="Track_R3.eastOutput" relation="relation2"/>
+        <link port="Track_R3.southOutput" relation="relation14"/>
+        <link port="Track_R4.input" relation="relation2"/>
+        <link port="Track_R4.input" relation="relation15"/>
+        <link port="Track_R4.input" relation="relation72"/>
+        <link port="Track_R4.northOutput" relation="relation73"/>
+        <link port="Track_R4.eastOutput" relation="relation5"/>
+        <link port="Track_R4.southOutput" relation="relation16"/>
+        <link port="Track_R5.input" relation="relation5"/>
+        <link port="Track_R5.input" relation="relation17"/>
+        <link port="Track_R5.input" relation="relation74"/>
+        <link port="Track_R5.northOutput" relation="relation75"/>
+        <link port="Track_R5.eastOutput" relation="relation81"/>
+        <link port="Track_R5.southOutput" relation="relation18"/>
+        <link port="Track_R6.input" relation="relation10"/>
+        <link port="Track_R6.input" relation="relation36"/>
+        <link port="Track_R6.input" relation="relation67"/>
+        <link port="Track_R6.northOutput" relation="relation9"/>
+        <link port="Track_R6.eastOutput" relation="relation4"/>
+        <link port="Track_R6.southOutput" relation="relation37"/>
+        <link port="Track_R7.input" relation="relation4"/>
+        <link port="Track_R7.input" relation="relation12"/>
+        <link port="Track_R7.input" relation="relation38"/>
+        <link port="Track_R7.northOutput" relation="relation11"/>
+        <link port="Track_R7.eastOutput" relation="relation7"/>
+        <link port="Track_R7.southOutput" relation="relation39"/>
+        <link port="Track_R8.input" relation="relation7"/>
+        <link port="Track_R8.input" relation="relation14"/>
+        <link port="Track_R8.input" relation="relation40"/>
+        <link port="Track_R8.northOutput" relation="relation13"/>
+        <link port="Track_R8.eastOutput" relation="relation6"/>
+        <link port="Track_R8.southOutput" relation="relation41"/>
+        <link port="Track_R9.input" relation="relation6"/>
+        <link port="Track_R9.input" relation="relation16"/>
+        <link port="Track_R9.input" relation="relation42"/>
+        <link port="Track_R9.northOutput" relation="relation15"/>
+        <link port="Track_R9.eastOutput" relation="relation8"/>
+        <link port="Track_R9.southOutput" relation="relation43"/>
+        <link port="Track_R10.input" relation="relation8"/>
+        <link port="Track_R10.input" relation="relation18"/>
+        <link port="Track_R10.input" relation="relation44"/>
+        <link port="Track_R10.northOutput" relation="relation17"/>
+        <link port="Track_R10.eastOutput" relation="relation82"/>
+        <link port="Track_R10.southOutput" relation="relation45"/>
+        <link port="Track_R11.input" relation="relation27"/>
+        <link port="Track_R11.input" relation="relation37"/>
+        <link port="Track_R11.input" relation="relation68"/>
+        <link port="Track_R11.northOutput" relation="relation36"/>
+        <link port="Track_R11.eastOutput" relation="relation19"/>
+        <link port="Track_R11.southOutput" relation="relation46"/>
+        <link port="Track_R12.input" relation="relation19"/>
+        <link port="Track_R12.input" relation="relation28"/>
+        <link port="Track_R12.input" relation="relation39"/>
+        <link port="Track_R12.northOutput" relation="relation38"/>
+        <link port="Track_R12.eastOutput" relation="relation21"/>
+        <link port="Track_R12.southOutput" relation="relation29"/>
+        <link port="Track_R13.input" relation="relation21"/>
+        <link port="Track_R13.input" relation="relation30"/>
+        <link port="Track_R13.input" relation="relation41"/>
+        <link port="Track_R13.northOutput" relation="relation40"/>
+        <link port="Track_R13.eastOutput" relation="relation20"/>
+        <link port="Track_R13.southOutput" relation="relation31"/>
+        <link port="Track_R14.input" relation="relation20"/>
+        <link port="Track_R14.input" relation="relation32"/>
+        <link port="Track_R14.input" relation="relation43"/>
+        <link port="Track_R14.northOutput" relation="relation42"/>
+        <link port="Track_R14.eastOutput" relation="relation22"/>
+        <link port="Track_R14.southOutput" relation="relation33"/>
+        <link port="Track_R15.input" relation="relation22"/>
+        <link port="Track_R15.input" relation="relation34"/>
+        <link port="Track_R15.input" relation="relation45"/>
+        <link port="Track_R15.northOutput" relation="relation44"/>
+        <link port="Track_R15.eastOutput" relation="relation83"/>
+        <link port="Track_R15.southOutput" relation="relation35"/>
+        <link port="Track_R16.input" relation="relation46"/>
+        <link port="Track_R16.input" relation="relation51"/>
+        <link port="Track_R16.input" relation="relation69"/>
+        <link port="Track_R16.northOutput" relation="relation27"/>
+        <link port="Track_R16.eastOutput" relation="relation23"/>
+        <link port="Track_R16.southOutput" relation="relation52"/>
+        <link port="Track_R17.input" relation="relation23"/>
+        <link port="Track_R17.input" relation="relation29"/>
+        <link port="Track_R17.input" relation="relation53"/>
+        <link port="Track_R17.northOutput" relation="relation28"/>
+        <link port="Track_R17.eastOutput" relation="relation25"/>
+        <link port="Track_R17.southOutput" relation="relation54"/>
+        <link port="Track_R18.input" relation="relation25"/>
+        <link port="Track_R18.input" relation="relation31"/>
+        <link port="Track_R18.input" relation="relation55"/>
+        <link port="Track_R18.northOutput" relation="relation30"/>
+        <link port="Track_R18.eastOutput" relation="relation24"/>
+        <link port="Track_R18.southOutput" relation="relation56"/>
+        <link port="Track_R19.input" relation="relation24"/>
+        <link port="Track_R19.input" relation="relation33"/>
+        <link port="Track_R19.input" relation="relation57"/>
+        <link port="Track_R19.northOutput" relation="relation32"/>
+        <link port="Track_R19.eastOutput" relation="relation26"/>
+        <link port="Track_R19.southOutput" relation="relation58"/>
+        <link port="Track_R20.input" relation="relation26"/>
+        <link port="Track_R20.input" relation="relation35"/>
+        <link port="Track_R20.input" relation="relation59"/>
+        <link port="Track_R20.northOutput" relation="relation34"/>
+        <link port="Track_R20.eastOutput" relation="relation84"/>
+        <link port="Track_R20.southOutput" relation="relation60"/>
+        <link port="Track_R21.input" relation="relation52"/>
+        <link port="Track_R21.input" relation="relation70"/>
+        <link port="Track_R21.northOutput" relation="relation51"/>
+        <link port="Track_R21.eastOutput" relation="relation47"/>
+        <link port="Track_R21.southOutput" relation="relation76"/>
+        <link port="Track_R22.input" relation="relation47"/>
+        <link port="Track_R22.input" relation="relation54"/>
+        <link port="Track_R22.northOutput" relation="relation53"/>
+        <link port="Track_R22.eastOutput" relation="relation49"/>
+        <link port="Track_R22.southOutput" relation="relation77"/>
+        <link port="Track_R23.input" relation="relation49"/>
+        <link port="Track_R23.input" relation="relation56"/>
+        <link port="Track_R23.northOutput" relation="relation55"/>
+        <link port="Track_R23.eastOutput" relation="relation48"/>
+        <link port="Track_R23.southOutput" relation="relation78"/>
+        <link port="Track_R24.input" relation="relation48"/>
+        <link port="Track_R24.input" relation="relation58"/>
+        <link port="Track_R24.northOutput" relation="relation57"/>
+        <link port="Track_R24.eastOutput" relation="relation50"/>
+        <link port="Track_R24.southOutput" relation="relation79"/>
+        <link port="Track_R25.input" relation="relation50"/>
+        <link port="Track_R25.input" relation="relation60"/>
+        <link port="Track_R25.northOutput" relation="relation59"/>
+        <link port="Track_R25.eastOutput" relation="relation85"/>
+        <link port="DestinationAirport_R.input" relation="relation81"/>
+        <link port="DestinationAirport_R2.input" relation="relation82"/>
+        <link port="DestinationAirport_R3.input" relation="relation83"/>
+        <link port="DestinationAirport_R4.input" relation="relation84"/>
+        <link port="DestinationAirport_R5.input" relation="relation85"/>
+        <link port="DestinationAirport_R6.input" relation="relation76"/>
+        <link port="DestinationAirport_R7.input" relation="relation77"/>
+        <link port="DestinationAirport_R8.input" relation="relation78"/>
+        <link port="DestinationAirport_R9.input" relation="relation79"/>
+    </entity>
+    <relation name="relation" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation2" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation3" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation4" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation5" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation6" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation7" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation8" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation9" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation10" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation11" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation12" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation13" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation14" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation15" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation16" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation17" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation18" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation19" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation20" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation21" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation22" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation23" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation24" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation25" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation26" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation27" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation28" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation29" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <relation name="relation30" class="ptolemy.actor.TypedIORelation">
+    </relation>
+    <link port="ControlArea.input1" relation="relation11"/>
+    <link port="ControlArea.input2" relation="relation12"/>
+    <link port="ControlArea.input3" relation="relation13"/>
+    <link port="ControlArea.input4" relation="relation14"/>
+    <link port="ControlArea.input5" relation="relation15"/>
+    <link port="ControlArea.output1" relation="relation6"/>
+    <link port="ControlArea.output2" relation="relation7"/>
+    <link port="ControlArea.output3" relation="relation8"/>
+    <link port="ControlArea.output4" relation="relation9"/>
+    <link port="ControlArea.output5" relation="relation10"/>
+    <link port="ControlArea.nOutput1" relation="relation"/>
+    <link port="ControlArea.nOutput2" relation="relation2"/>
+    <link port="ControlArea.nOutput3" relation="relation3"/>
+    <link port="ControlArea.nOutput4" relation="relation4"/>
+    <link port="ControlArea.nOutput5" relation="relation5"/>
+    <link port="ControlArea2.input1" relation="relation"/>
+    <link port="ControlArea2.input2" relation="relation2"/>
+    <link port="ControlArea2.input3" relation="relation3"/>
+    <link port="ControlArea2.input4" relation="relation4"/>
+    <link port="ControlArea2.input5" relation="relation5"/>
+    <link port="ControlArea2.nInput1" relation="relation21"/>
+    <link port="ControlArea2.nInput2" relation="relation22"/>
+    <link port="ControlArea2.nInput3" relation="relation23"/>
+    <link port="ControlArea2.nInput4" relation="relation24"/>
+    <link port="ControlArea2.nInput5" relation="relation25"/>
+    <link port="ControlArea2.output1" relation="relation16"/>
+    <link port="ControlArea2.output2" relation="relation17"/>
+    <link port="ControlArea2.output3" relation="relation18"/>
+    <link port="ControlArea2.output4" relation="relation19"/>
+    <link port="ControlArea2.output5" relation="relation20"/>
+    <link port="ControlArea3.input1" relation="relation6"/>
+    <link port="ControlArea3.input2" relation="relation7"/>
+    <link port="ControlArea3.input3" relation="relation8"/>
+    <link port="ControlArea3.input4" relation="relation9"/>
+    <link port="ControlArea3.input5" relation="relation10"/>
+    <link port="ControlArea3.output1" relation="relation26"/>
+    <link port="ControlArea3.output2" relation="relation27"/>
+    <link port="ControlArea3.output3" relation="relation28"/>
+    <link port="ControlArea3.output4" relation="relation29"/>
+    <link port="ControlArea3.output5" relation="relation30"/>
+    <link port="ControlArea3.nOutput1" relation="relation11"/>
+    <link port="ControlArea3.nOutput2" relation="relation12"/>
+    <link port="ControlArea3.nOutput3" relation="relation13"/>
+    <link port="ControlArea3.nOutput4" relation="relation14"/>
+    <link port="ControlArea3.nOutput5" relation="relation15"/>
+    <link port="ControlArea4.input1" relation="relation26"/>
+    <link port="ControlArea4.input2" relation="relation27"/>
+    <link port="ControlArea4.input3" relation="relation28"/>
+    <link port="ControlArea4.input4" relation="relation29"/>
+    <link port="ControlArea4.input5" relation="relation30"/>
+    <link port="ControlArea4.nInput1" relation="relation16"/>
+    <link port="ControlArea4.nInput2" relation="relation17"/>
+    <link port="ControlArea4.nInput3" relation="relation18"/>
+    <link port="ControlArea4.nInput4" relation="relation19"/>
+    <link port="ControlArea4.nInput5" relation="relation20"/>
+    <link port="ControlArea4.nOutput1" relation="relation21"/>
+    <link port="ControlArea4.nOutput2" relation="relation22"/>
+    <link port="ControlArea4.nOutput3" relation="relation23"/>
+    <link port="ControlArea4.nOutput4" relation="relation24"/>
+    <link port="ControlArea4.nOutput5" relation="relation25"/>
+</entity>
